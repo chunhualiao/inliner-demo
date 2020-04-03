@@ -62,7 +62,7 @@ namespace RAJA
   // Input: raja template function call deflined at line 57, 
   //        instantiated using template 1 defined at line 15:
   // Output should look like: TODO: the following loop has compilation error: seq_exec
-  RAJA::forall(class RAJA::seq_exec, 0, n,  [=] (int i)
+  RAJA::forall(RAJA::seq_exec() , 0, n,  [=] (int i)
       {
       a[i] = 0.5;
       }   );
