@@ -1,5 +1,6 @@
 # inliner-demo
 a set of example input and output files for ROSE's inliner
+* Full documentation at: https://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Inliner
 
 File lists
 * input.C: an input file
