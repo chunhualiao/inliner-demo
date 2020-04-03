@@ -1,0 +1,22 @@
+template < typename T > void
+swap (T & x, T & y)
+{
+  T tmp = x;
+  x = y;
+  y = tmp;
+}
+
+int
+foo (int a, int b)
+{
+  {
+    int tmp = a;
+    a = b;
+    b = tmp;
+  }
+}
+
+int
+main ()
+{
+}
