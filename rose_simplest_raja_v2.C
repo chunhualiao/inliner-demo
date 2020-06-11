@@ -50,18 +50,13 @@ void foo_input()
 {
   double *a = new double [15];
   {
-
     class loop_body__4 
     {
-
-
       public: inline void operator()(int i) const
 	      {
 		(this) -> a[i] = 0.5;
 	      }
 	      double *a;
-
-
 	      loop_body__4(double *a__5) : a(a__5)
       {
       }
@@ -70,19 +65,13 @@ void foo_input()
     class loop_body__4 loop_body__6(a);
     {
       struct RAJA::seq_exec __9 = RAJA::seq_exec ();
-
-
       class loop_body__12 
       {
-
-
 	public: inline void operator()(int i) const
 		{
 		  (this) -> a[i] = 0.5;
 		}
 		double *a;
-
-
 		loop_body__12(double *a__13) : a(a__13)
 	{
 	}
@@ -112,19 +101,13 @@ int main()
   {
     double *a = new double [15];
     {
-
-
       class loop_body__4 
       {
-
-
 	public: inline void operator()(int i) const
 		{
 		  (this) -> a[i] = 0.5;
 		}
 		double *a;
-
-
 		loop_body__4(double *a__5)
 		{
 		}
@@ -133,19 +116,13 @@ int main()
       class loop_body__4 loop_body__6(a);
       {
 	struct RAJA::seq_exec __9 = RAJA::seq_exec ();
-
-
 	class loop_body__12 
 	{
-
-
 	  public: inline void operator()(int i) const
 		  {
 		    (this) -> a[i] = 0.5;
 		  }
 		  double *a;
-
-
 		  loop_body__12(double *a__13)
 		  {
 		  }
